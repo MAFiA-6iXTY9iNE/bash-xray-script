@@ -24,7 +24,7 @@ Manage Script
 
 2)sudo reboot (update එකෙන් පසු restart කිරීමට)
 
-4)sudo git clone https://github.com/MAFIAHEAVEN/bash-xray-script
+4)sudo git clone https://github.com/MAFiA-6iXTY9iNE/bash-xray-script
 
 5)cd bash-xray-script
 
@@ -40,7 +40,7 @@ Manage Script
 
 1) sudo rm  -rf  ~/bash-xray-script
 
-2) sudo git clone https://github.com/MAFIAHEAVEN
+2) sudo git clone https://github.com/MAFiA-6iXTY9iNE
 
 3) cd bash-xray-script
 
