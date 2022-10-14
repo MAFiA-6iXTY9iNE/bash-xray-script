@@ -6,23 +6,12 @@
 
 
 
-Xray-Script එක Use කරල ඔයාට High speed Network Connection එකක් / Low ping / Full stable Connection එකක් අත්විදින්න පුලුවන් ...
-
-
-Manage Script
-
-## :heavy_exclamation_mark: Requirements
-
-* Ubuntu 20.04 or Ubuntu-latest Os එක සහිත Vps එකක්.
-* UUID එකක් (V2rayN මගින් හෝ http://uuidgenerator.net මගින් UUID එකක් Genarate කරගන්න).
-* DNS use නොකර Ip එකෙන් direct connect කරගන්න xray-nodomain ස්ක්‍රිප්ට් එක භාවිතා කරන්න.
-
 ------------------------------------------
 ## :book: Installation - Without DNS
 
 1)apt-get update -y && apt-get upgrade -y
 
-2)sudo reboot (update එකෙන් පසු restart කිරීමට)
+2)sudo reboot 
 
 4)sudo git clone https://github.com/MAFiA-6iXTY9iNE/bash-xray-script
 
@@ -40,7 +29,7 @@ Manage Script
 
 1) sudo rm  -rf  ~/bash-xray-script
 
-2) sudo git clone https://github.com/MAFiA-6iXTY9iNE
+2) sudo git clone https://github.com/MAFiA-6iXTY9iNE/bash-xray-script
 
 3) cd bash-xray-script
 
