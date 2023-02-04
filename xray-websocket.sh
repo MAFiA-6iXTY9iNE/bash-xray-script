@@ -1,19 +1,4 @@
 #!/bin/sh
-
-#input uuid & domain
-
-echo Enter a valid gen4 UUID:
-read UUID
-
-#configure timezone to sri lanka standards
-
-rm -rf /etc/localtime
-cp /usr/share/zoneinfo/Asia/Colombo /etc/localtime
-date -R
-
-
-
-
 #running xray install script for linux - systemd
 
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
@@ -40,7 +25,7 @@ cat << EOF > /usr/local/etc/xray/config.json
   },
   "inbounds": [
     {
-      "port": 80,
+      "port": 465,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -63,23 +48,7 @@ cat << EOF > /usr/local/etc/xray/config.json
         }
       }
     },
-    {
-      "port": 444,
-      "protocol": "vless",
-      "settings": {
-        "clients": [
-          {
-            "id": "$UUID"
-          }
-        ],
-        "decryption": "none"
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none"
-      }
-    }
-  ],
+],
   "outbounds": [
     {
       "protocol": "freedom",
