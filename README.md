@@ -23,6 +23,8 @@
 
 7)sudo ./xray-websocket.sh
 
+7)sudo ./vless+vmess.sh
+
 ------------------------------------------
 
 
