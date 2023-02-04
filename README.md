@@ -18,6 +18,7 @@
 5)cd bash-xray-script
 
 6)sudo chmod +x xray-websocket.sh
+
 6)sudo chmod +x vless+vmess.sh
 
 7)sudo ./xray-websocket.sh
